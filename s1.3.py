@@ -4,6 +4,6 @@ if(a>="a" and a<="z"):
     if a in list:
         print("Vowel")
     else:
-        print("Consonent")
+        print("Consonant")
 else:
     print("Invalid")
