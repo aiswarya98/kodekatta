@@ -1,0 +1,9 @@
+n=int(input())
+a=list(map(int,input().split()))
+a.sort()
+if(n%2==0):
+    b=int((n+1)/2)
+    print(a[b])
+else:
+    b=int(n/2)
+    print(a[b])
