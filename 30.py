@@ -1,0 +1,12 @@
+a,b=map(int,input().split())
+c,d=map(int,input().split())
+e=int((a*60)+b)
+f=int((c*60)+d)
+g=abs(e-f)
+h=0
+m=0
+while(g>59):
+    g=g-60
+    h+=1
+m=g
+print(h,m)
